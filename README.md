@@ -1,2 +1,0 @@
-# federicomedinabyu.github.io
-Activities
