@@ -1,3 +1,3 @@
-const thisYear = new Date();
-let year = thisYear.getFullYear();
-document.getElementById("currentYear").textContent = year;
+var d = new Date();
+var n = d.getFullYear();
+document.getElementById("currentYear").innerHTML = n;
