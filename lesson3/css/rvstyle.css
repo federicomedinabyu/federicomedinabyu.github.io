@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(82, 43, 114);
+    border-width: .5em;
+    font-family: "Yusei Magic", Times, serif;
+    font-size: 20px;
+}
+
+h1 {
+    padding-right: 1em;
+    padding-left: 1.5em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    background-color: #8c00ff;
+    font-family: 'Yusei Magic', serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    padding: .5em;
+    padding-left: 2em;
+    margin-bottom: 0px;
+    background-color:  #f700ff;
+    font-family: 'Yusei Magic', serif;
+    font-size: 26px;
+    text-align: center;
+}
+h3 {
+    font-size: 22px;
+}
+img{
+   background-color: #d8d8d8;
+   display:block;
+   margin:auto;
+}
+
+
+nav ul {
+    display: block;
+    justify-content: center;
+    list-style: none;
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-bottom: 15px;
+    
+
+
+}
+
+li {
+    padding: 0px;
+    margin-right: 10px;
+}
+
+li a{
+    display: block;
+    padding-left:48px;
+    font-size: 18px;
+}
+
+nav ul li:hover{
+    background-color: #f148ca;
+
+}
+
+.active {
+    background-color: #c28c9e;
+    
+}
+
+footer {
+    background-color: #8c00ff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom:20px;
+}
+
+
+.gente {
+    background-color: white;
+    margin-top: 0px;
+    padding: 15px;
+    padding-left: 48px;
+    }
+.profile{
+    display: block;
+    text-align: right;
+    background-color: white;
+}
+.tab{
+    margin-left:50px;
+}
+
+.profile-img{
+    width: 150px;
+    display: block;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.escenario {
+    margin-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid black;
+}
+
+p {
+    font-size: 18px;
+}
+
+main div div p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.background-color {
+    background-color: #d8d8d8;
+    border-bottom: 2px solid white;
+}
+.h1-color {
+    background-color: #00a0ff;
+    border-bottom: 2px solid black;
+}
+.h2-color {
+    background-color: #00c0ff;
+    border-bottom: 2px solid black;
+}
+.paragraph-color {
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+.text-color {
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+.border-color {
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+.separator {
+    border-bottom: 2px solid black;
+}
+.typegrid {
+    display: block;
+
+}
+.header-font-size {
+    font-size: 32px;
+    font-family: 'Yusei Magic', serif;
+}
+.nav-font-size {
+    font-size: 18px;
+    font-family: 'Yusei Magic', serif;
+}
+.footer-font-size {
+    font-size: 16px;
+    font-family: "Yusei Magic", serif;
+}
+.h1-font-size {
+    font-size: 32px;
+    font-family: 'Yusei Magic', serif;
+}
+.h2-font-size {
+    font-size: 26px;
+    font-family: 'Yusei Magic', serif;
+}
+.h3-font-size {
+    font-size: 22px;
+    font-family: 'Yusei Magic', serif;
+}
+.p-font-size {
+    font-size: 20px;
+    font-family: "Yusei Magic", serif;
+}
+.paleta {
+    display: block;
+    width: 800px;
+    margin: auto;
+}
+.personas {
+    text-align: right;
+    padding-left: 48px;
+}
+
+
+@media only screen and (min-width: 37.5em) {
+    nav ul {
+       
+        display: flex;
+        font-size: 18px;
+        padding-bottom: 5px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    li a{
+        padding:15px;
+        margin:0px;
+    }
+    .active {
+        background-color: 
+        
+    }
+
+    .profile {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+    }
+    .typegrid {
+        display: grid;
+        grid-template-columns: 180px 160px 70px 1fr;
+    }
+}
