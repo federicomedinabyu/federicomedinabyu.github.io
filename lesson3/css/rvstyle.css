@@ -34,7 +34,7 @@ h3 {
     font-size: 22px;
 }
 img{
-   background-color: #d8d8d8;
+   background-color: white;
    display:block;
    margin:auto;
 }
@@ -196,7 +196,7 @@ main div div p {
     width:500px;
 }
 .target {
-    background-color: #d8d8d8;
+    background-color: white;
 }
 
 @media only screen and (min-width: 37.5em) {

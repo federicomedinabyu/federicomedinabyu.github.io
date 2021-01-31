@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Balsamiq Sans', 'Roboto', sans-serif;
+    background-color: #A8DADC:;
+    margin: 0 auto;
+  }
+  
+  header {
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    padding: 7px;
+    background-color: #E63946;
+    color: #F4F1DE;
+    
+} 
+    
+  .logo-box {
+    height: 90px;
+    width: auto;
+    padding-right: 10px;
+  border-radius: 10px;
+}
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F1FAEE;
+  }
+  
+  .title h1 {
+    font-size: 1.8em;
+    margin-bottom: 0px;
+  }
+
+  .motto {
+    font-style: bold;
+    font-size: 1em;
+    letter-spacing: 1pt;
+    padding-bottom: 10px;
+  }
+  
+h1, h2, h3 {
+    font-family: 'Balsamiq Sans', serif;
+}
+
+h1 {
+  font-size: 2em;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+    font-size: 1.4em;
+    color: #F1FAEE;
+    line-height: 0.5em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+  
+.preston-heading {
+    text-align: center;
+    color: #1D3557;
+    font-size: 2.5em;
+  }
+  
+  .contents {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #A8DADC;
+    padding: 15px;
+    background-color:#A8DADC ;
+    color: #A8DADC;
+    font-style: bold;
+    font-size: 1.1em;
+  }
+  
+  main {
+    margin: auto;
+    padding: 30px;
+  }
+
+  
+  nav {
+    background-color: #457B9D;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #F4F1DE;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  
+  }
+
+  nav li {
+    display: none;
+}
+
+nav a {
+    display: block;
+    padding: 0.25rem;
+    text-align: center;
+    text-decoration: none;
+    color:#A8DADC;
+    font-weight: 700;;
+}
+
+nav a:hover {
+  background-color: #A8DADC;
+  color: #457B9D ;
+  border-radius: 8px;
+}
+
+nav a:active {
+  color: #F2CC8F;
+}
+  
+  .nav-bar {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .nav-bar li:first-child {
+      display: block;
+  }
+  
+  .menu-id li {
+      display: block;
+  }
+  
+  p {
+    font-size: 1.1em;
+    font-weight: bold;
+    color:	#3D405B;
+  }
+  
+  footer {
+    background-color: #E63946;
+    color: #F1FAEE ;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    max-width: 990px;
+    margin: 0 auto;
+  }
+  
+  a {
+    color: #457B9D;
+}
