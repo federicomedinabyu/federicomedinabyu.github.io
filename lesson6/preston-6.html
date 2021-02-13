@@ -40,7 +40,11 @@
 <main>
   <h2 class="preston-heading">Preston</h2>
   <div class="hero">
-    <img class="idaho-picture" src="images/preston.jpg" alt="city of preston idaho">
+    <picture>
+        <source media="(max-width: 800px)" srcset="/pictures/hero-400.jpg">
+          <source media="(max-width: 1001px)" srcset="/pictures/hero-800.jpg">
+          <img class="hero-large" src="/pictures/hero-1200.jpg" alt="sunny day">
+      </picture>
     <section class="summary">
       <h3>Today's Wheater</h3>
       <p>Currently: Rainy</p>
