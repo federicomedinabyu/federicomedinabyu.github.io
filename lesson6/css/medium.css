@@ -1,0 +1,45 @@
+@media only screen and (min-width: 641px) {
+
+    h1 {
+      margin-top: 0px;
+    }
+
+    .logo-box {
+      height: 120px;
+      width: auto;
+      padding-right: 10px;
+    }
+    
+    .motto {
+          letter-spacing: 1.5pt;
+          font-size: larger;
+      }
+  
+    .nav-bar {
+          display: flex;
+    }
+    
+    .nav-bar li {
+          display: block; 
+          flex: 1 1 auto;
+    }
+    
+    .nav-bar a {
+          text-align: center;
+    }
+    
+    .nav-bar li:first-child {
+          display: none;
+    }
+
+    main {
+        max-width: 920px;
+      }
+  
+    .contents {
+          background-color: #A8DADC;
+          color: #1D3557;
+          border: 1px dashed#1D3557;
+        }
+    }
+
