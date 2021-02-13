@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rooster vane site">
+  <title>W04 Rooster Vane site</title>
+  <link rel="shortcut icon" href="gallo.ico" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/roosterstyle.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="stylesheet" href="css/medium.css">
+</head>
+
+<div id="pancakes" style="display: block;"></div>
+
+<header>
+  <img class="logo-box" src="images/logogallo.jpg" alt="rooster vane logo">
+
+  <section class="title">
+    <h1>The Rooster Vane</h1>
+    <div class="motto">Where the wind blows</div>
+  </section>
+</header>
+
+<nav>
+  <ul class="nav-bar">
+    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+    <li><a href="#">Home</a></li>
+    <li><a class="home-link" href="preston-4.html">Preston</a></li>
+    <li><a href="#">Soda Springs</a></li>
+    <li><a href="#">Fish Haven</a></li>
+    <li><a href="#">Storm Center</a></li>
+    <li><a href="#">Gallery</a></li>
+  </ul>
+</nav>
+
+<main>
+  <h2 class="preston-heading">Preston</h2>
+  <div class="hero">
+    <img class="idaho-picture" src="images/preston.jpg" alt="city of preston idaho">
+    <section class="summary">
+      <h3>Today's Wheater</h3>
+      <p>Currently: Rainy</p>
+      <p>High: 69 °F</p>
+      <p>Wind Chill: 10°F</p>
+      <p>Humidity: 75%</p>
+      <p>Wind Speed: 25 mph</p>
+    </section>
+  </div>
+  <div class="forecast">
+    <h3>5 Day Forecast</h3>
+    <table id="weekly-forecast">
+      <thead>
+        <tr id="weekly-days">
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img class="forecast-pic" src="images/sun.png" alt="Monday Weather">
+            <br>
+            <span id="day1">70 °F</span>
+          </td>
+          <td>
+            <img class="forecast-pic" src="images/sun.png" alt="Tuesday Weather">
+            <br>
+            <span id="day2">70 °F</span>
+          </td>
+          <td>
+            <img class="forecast-pic" src="images/sun.png" alt="Wednesday Weather">
+            <br>
+            <span id="day3">70 °F</span>
+          </td>
+          <td>
+            <img class="forecast-pic" src="images/sun.png" alt="Thursday Weather">
+            <br>
+            <span id="day4">70 °F</span>
+          </td>
+          <td>
+            <img class="forecast-pic" src="images/sun.png" alt="Friday Weather">
+            <br>
+            <span id="day5">70 °F</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="article">
+
+    <h3>Article</h3>
+    <p>
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+      vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    </p>
+  </div>
+
+  <div class="contact-grid">
+    <section class="contact-info">
+      <h3>Contact Information</h3>
+      <p><strong>Rooster Vane</strong></p>
+      <p> Preston</p>
+      <p>Address: Preston, ID 83263</p>
+      <p>Phone: 555-555-5555</p>
+      <p>E-mail: wheater@roostervane.com</p>
+      <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="images/facebook.png" alt="Facebook icon"></a>
+      <a class="socialmedia" target="_blank" href="https://www.instagram.com"><img class="icon" src="images/instagram.png" alt="Instagram icon"></a>
+      <a class="socialmedia" target="_blank" href="https://www.twitter.com"><img class="icon" src="images/twitter.png" alt="Twitter icon"></a>
+    </section>
+    <iframe id="map" src="https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sPreston+Idaho!6i13"></iframe>
+    <a href="https://www.embedgooglemap.net/"></a>
+  </div>
+</main>
+
+<footer>
+  <span id="currentYear"></span> | Federico Medina | Argentina | <a href="https://www.byui.edu/online">BYU I Online Learning</a><br>
+  <span id="lastModified"></span>
+</footer>
+
+<script src="js/lastUpdate.js"></script>
+<script src="js/currentYear.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/pancake.js"></script>
+
+
+</html>
