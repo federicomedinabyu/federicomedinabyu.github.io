@@ -1,4 +1,4 @@
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 800px) {
 
     h1 {
       margin-top: 0px;
@@ -41,5 +41,22 @@
           color: #1D3557;
           border: 1px dashed#1D3557;
         }
-    }
+        .summary {
+            position: absolute;
+            top: 0px;
+            font-size: .8em;
+            background: radial-gradient(#f1faee, #f1faee);
+            border: 3px solid #1d3557;
+            padding: 5px;
+            box-shadow: 0 0 30px #1d3557;
+            opacity: 0.6;
+            color: #1d3557;
+            margin: 50px;
+            border-radius: 10px;
+          }
+   
+      }
+
+
+
 

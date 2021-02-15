@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Rooster vane site">
   <title>W04 Rooster Vane site</title>
-  <link rel="shortcut icon" href="gallo.ico" />
+  <link rel="shortcut icon" href="images/gallo.ico" />
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/roosterstyle.css">
+  <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/large.css">
   <link rel="stylesheet" href="css/medium.css">
 </head>
@@ -37,23 +37,24 @@
   </ul>
 </nav>
 
-<main>
-  <h2 class="preston-heading">Preston</h2>
-  <div class="hero">
-    <picture>
-        <source media="(max-width: 800px)" srcset="/pictures/hero-400.jpg">
-          <source media="(max-width: 1001px)" srcset="/pictures/hero-800.jpg">
-          <img class="hero-large" src="/pictures/hero-1200.jpg" alt="sunny day">
-      </picture>
-    <section class="summary">
-      <h3>Today's Wheater</h3>
-      <p>Currently: Rainy</p>
-      <p>High: 69 °F</p>
-      <p>Wind Chill: 10°F</p>
-      <p>Humidity: 75%</p>
-      <p>Wind Speed: 25 mph</p>
-    </section>
-  </div>
+    <main>
+        <h2 class= "preston-heading">Preston</h2>
+        <div class="hero">
+         <picture>
+          <source media="(max-width: 800px)" srcset="images/hero-400.jpg">
+          <source media="(max-width: 1008px)" srcset="images/hero-800.jpg">
+          <img class="large" src="images/hero-1200.jpg" alt="Picture of sky">
+         </picture>
+        
+        <section class="summary">
+          <h3>Weather Summary</h3>
+          <p>Currently: Sunny</p>
+          <p>High: <span id="temperature">30</span>°F</p>
+          <p>Wind Chill: <span id="windchill"></span>°F</p>
+          <p>Humidity: 60%</p>
+          <p>Wind Speed: <span id="windspeed">10</span>mph</p>
+        </section>
+      </div>
   <div class="forecast">
     <h3>5 Day Forecast</h3>
     <table id="weekly-forecast">
@@ -133,6 +134,15 @@
 <script src="js/currentYear.js"></script>
 <script src="js/menu.js"></script>
 <script src="js/pancake.js"></script>
-
+<script src="js/windchill.js"></script>
+<script>
+    WebFont.load({
+    google: {
+      families: [
+          'Balsamiq Sans', 'Roboto'
+      ]
+    }
+  });
+  </script>
 
 </html>
