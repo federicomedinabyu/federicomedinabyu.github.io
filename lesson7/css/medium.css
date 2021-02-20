@@ -1,0 +1,77 @@
+@media only screen and (min-width: 800px) {
+
+    h1 {
+      margin-top: 0px;
+    }
+
+    .logo-box {
+      height: 120px;
+      width: auto;
+      padding-right: 10px;
+    }
+    
+    .motto {
+          letter-spacing: 1.5pt;
+          font-size: larger;
+      }
+  
+    .nav-bar {
+          display: flex;
+    }
+    
+    .nav-bar li {
+          display: block; 
+          flex: 1 1 auto;
+    }
+    
+    .nav-bar a {
+          text-align: center;
+    }
+    
+    .nav-bar li:first-child {
+          display: none;
+    }
+
+    main {
+        max-width: 920px;
+      }
+  
+    .contents {
+          background-color: #A8DADC;
+          color: #1D3557;
+          border: 1px dashed#1D3557;
+        }
+        .summary {
+            position: absolute;
+            top: 0px;
+            font-size: .8em;
+            background: radial-gradient(#f1faee, #f1faee);
+            border: 3px solid #1d3557;
+            padding: 5px;
+            box-shadow: 0 0 30px #1d3557;
+            opacity: 0.6;
+            color: #1d3557;
+            margin: 50px;
+            border-radius: 10px;
+          }
+    /*week 7*/
+    .gallery {
+      grid-template-columns: 1fr 1fr;
+    }
+    .lazyload img {
+      width: 300px;
+      height: 400px;
+      filter: blur(0em);
+      transition: filter 0.5s;
+    }
+    
+     img[data-src] {
+      filter: blur(0.2em);
+    }
+
+} 
+      
+
+
+
+
