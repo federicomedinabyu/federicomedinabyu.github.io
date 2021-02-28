@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rooster vane site">
+  <title>W04 Rooster Vane site</title>
+  <link rel="shortcut icon" href="images/gallo.ico" />
+  <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    
+<header>
+  <img class="logo-box" src="images/logogallo.jpg" alt="rooster vane logo">
+
+  <section class="title">
+    <h1>The Rooster Vane</h1>
+    <div class="motto">Where the wind blows</div>
+  </section>
+</header>
+
+<nav>
+  <ul class="nav-bar">
+    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Preston</a></li>
+    <li><a href="#">Soda Springs</a></li>
+    <li><a href="#">Fish Haven</a></li>
+    <li><a class="home-link" href="stormcenter.html">Storm Center</a></li>
+    <li><a href="#">Gallery</a></li>
+  </ul>
+</nav>
+<main>
+    <form method="GET" action="thanks.html">
+      <fieldset>
+        <legend>Your Information</legend>
+
+          <label class="info">
+          Full Name: <input type="text" name="fullname" title="Please include first and last name" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+          </label>
+
+          <label class="info">
+          Email: <input type="email" name="email" placeholder="info@roostervane.com">
+          </label>  
+
+          <label class="info">
+          Phone: <input type="tel" name="phone" placeholder="555-555-5555" required>
+          </label>
+
+          <label class="info">
+          Zip Code: <input type="number" name="zipcode" required>
+          </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Storm Information</legend>
+
+          <label class="storm">
+          Storm Date: <input type="date" name="storm-date">
+          </label>
+
+          <label class="storm">
+          Storm Type: <input list="storm-type" name="storm-type">
+            <datalist id="storm-type">
+              <option value="Flash Flood"></option>
+              <option value="Hail"></option>
+              <option value="Hurricane"></option>
+              <option value="Thunderstorm"></option>
+              <option value="Tornado"></option>
+            </datalist>
+          </label>
+
+          <label class="storm">
+            Storm Severity: <input type="range" name="storm-severity" min="1" max="10" step="1" value="5" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+            <span id="rating-value">5</span>
+          </label>
+
+          <label class="storm">
+            Storm Region: <select name="storm-region" id="storm-region">
+            <option selected disabled>Select Region....</option>
+            <option value="Preston">Preston</option>
+            <option value="Soda-Springs">Soda Springs</option>
+            <option value="Fish-Haven">Fish Haven</option>
+            </select>
+          </label>
+
+          <div>User in Danger Level:</div>
+            <label class="radios"><input type="radio" name="user-level" value="yes">
+            <span class="option">Yes</span>
+            </label>
+
+            <label class="radios"><input type="radio" name="user-level" value="maybe">
+            <span class="option">Maybe</span>
+            </label>
+
+            <label class="radios"><input type="radio" name="user-level" value="no">
+            <span class="option">No</span>
+            </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Information</legend>
+            <label class="top">Comments: </label>
+            <textarea name="comments" id="comments">
+            </textarea>
+      </fieldset>
+      <input class="submit-button" type="submit" value="Submit report">
+    </form>
+</main>
+<footer>
+    <span id="currentYear"></span> | Federico Medina | Argentina | <a href="https://www.byui.edu/online">BYU I Online Learning</a><br>
+    <span id="lastModified"></span>
+  </footer>
+ 
+  <script src="js/rating.js"></script>
+  <script src="js/lastUpdate.js"></script>
+  <script src="js/currentYear.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/api.js"></script>
+  
+</body>
+  </html>

@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+
+body {
+  font-family: "Balsamiq Sans", "Roboto", sans-serif;
+  background-color: #a8dadc;
+  margin: 0 auto;
+}
+
+header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 7px;
+  background-color: #e63946;
+  color: #f1faee;
+}
+
+.logo-box {
+  height: 90px;
+  width: auto;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f1faee;
+}
+
+.title h1 {
+  font-size: 1.8em;
+  margin-bottom: 0px;
+}
+
+.motto {
+  font-size: 1em;
+  letter-spacing: 1pt;
+  padding-bottom: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Balsamiq Sans", serif;
+}
+
+h1 {
+  font-size: 2em;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.4em;
+  color: #f1faee;
+  line-height: 0.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+.preston-heading {
+  text-align: center;
+  color: #1d3557;
+  font-size: 2.5em;
+}
+
+main {
+  margin: auto;
+  padding: 30px;
+}
+
+nav {
+  background-color: #457b9d;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #f1faee;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+nav li {
+  display: none;
+}
+
+nav a {
+  display: block;
+  padding: 0.25rem;
+  text-align: center;
+  text-decoration: none;
+  color: #a8dadc;
+  font-weight: 700;
+}
+
+nav a:hover {
+  background-color: #a8dadc;
+  color: #457b9d;
+  border-radius: 8px;
+}
+
+nav a:active {
+  color: #e63946;
+}
+
+.nav-bar {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.nav-bar li:first-child {
+  display: block;
+}
+
+.menu-id li {
+  display: block;
+}
+.home-link {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+p {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #1d3557;
+}
+
+footer {
+  background-color: #e63946;
+  color: #f1faee;
+  font-size: 1em;
+  text-align: center;
+  padding: 10px;
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+a {
+  color: #457b9d;
+}
+#pancackes {
+  display: none;
+  background-color: #457b9d;
+  color:#f1faee;
+  padding: 10px;
+}
+
+
+
+.summary {
+  position: absolute;
+  top: 0px;
+  font-size: .8em;
+  background: radial-gradient(#f1faee, #f1faee);
+  border: 3px solid #1d3557;
+  padding: 5px;
+  box-shadow: 0 0 30px #1d3557;
+  opacity: 0.6;
+  color: #1d3557;
+  margin: 50px;
+  border-radius: 10px;
+}
+.hero {
+  margin: 15px;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+}
+.forecast {
+  text-align: center;
+  color: #1d3557;
+}
+.forecast-pic {
+  width: 50%;
+}
+.article {
+  display: block;
+  margin: 15px;
+  padding: 15px;
+  color: #1d3557;
+}
+.icon {
+  width: 35px;
+  padding: 10px;
+}
+
+#map {
+  margin: auto;
+  grid-column: 1/2;
+  grid-row: 1;
+      height: 250px;
+      width: 75%;
+}
+
+.contact-info {
+  grid-column: 1;
+  margin: auto;
+  text-align: center;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 15px;
+  padding: 15px;
+}
+/* week 7*/
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 25px;
+}
+
+.gallery figure {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery figcaption {
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.2em;
+  color:  #1d3557;
+  text-align: center;
+}
+
+.gallery-img {
+  width: 100%;
+}
+.lazyload img {
+  width: 300px;
+  height: 400px;
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+ img[data-src] {
+  filter: blur(0.2em);
+}
+
+.thanks {
+  padding: 100px;
+  margin: 20px;
+  border: 2px solid #1d3557;
+}
+
+form {
+  color: #1d3557;
+  font-size: 1.1em;
+}
+
+form fieldset {
+  margin: 3em;
+  border: 5px solid #1d3557;
+  border-radius: 8px;
+  padding: 2em;
+}
+
+form legend {
+  color: #e63946;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+form label.top, form label.info, form div {
+  display: block;
+  padding-bottom: 15px;
+}
+
+form label.info input:required {
+  border-left: 7px #e63946 solid;
+ 
+}
+
+form label.info input:required:valid {
+  border-left: 7px #e63946 solid;
+}
+
+form label.top input, form label.info input, form label.storm select {
+  display: block;
+  border: solid 1px #1d3557;
+  border-radius: 4px;
+  padding: 0.5em;
+  color: #1d3557;
+  width: 100%;
+  background-color: white;
+  max-width: 800px;
+}
+
+form label.radios {
+  display: block;
+  padding-top: 1em;
+}
+
+form label.storm {
+  display: block;
+  padding: .75rem 0;
+  
+}
+
+form input.submit-button {
+  border: none;
+  background-color:#1d3557 ;
+  color: white;
+  font-size: 1.3em;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 0 2em 5%;
+  width: 96%;
+  max-width: 15em;
+}
