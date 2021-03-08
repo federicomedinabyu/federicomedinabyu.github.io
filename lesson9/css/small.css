@@ -320,3 +320,44 @@ form input.submit-button {
   width: 96%;
   max-width: 15em;
 }
+/* Week 9*/
+
+.cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px; 
+  color: #1d3557;
+  font-size: 1em;
+}
+
+.cards section {
+  margin: auto;
+  border: 2px solid #1d3557;
+  border-radius: 10px;
+  background-color: #457b9d;
+  padding: 1em;
+  }
+
+
+.cards section img {
+  border-radius: 5px;
+  width: 80%;
+  height: auto;
+  padding: 10px;
+  filter: blur(0em);
+  transition: filter 1s;
+}
+
+.h2-title {
+  color:#e63946;
+  font-size: 2em;
+}
+
+.home-title {
+  padding: 10px;
+}
+
+.hero-image {
+  display: none;
+}

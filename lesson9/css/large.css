@@ -29,6 +29,23 @@
        img[data-src] {
         filter: blur(0.2em);
       }
-    
+     /* Week 9*/
+
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
+.cards section {
+    display: block;
+    width: 250px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.cards section img {
+    width: 90%;
+}
+
+}
+
 
