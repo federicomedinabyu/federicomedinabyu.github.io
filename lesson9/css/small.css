@@ -352,6 +352,7 @@ form input.submit-button {
 .h2-title {
   color:#e63946;
   font-size: 2em;
+  text-align: center;
 }
 
 .home-title {
@@ -360,4 +361,9 @@ form input.submit-button {
 
 .hero-image {
   display: none;
+  border: solid #1d3557;
+  width: 100%;
+}
+.paragraph {
+  text-align: center;
 }

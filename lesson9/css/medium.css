@@ -86,6 +86,8 @@
   }
 
   .hero-image {
+    display: block;
+    border: solid #1d3557;
     width: 100%;
   }
 
