@@ -40,7 +40,7 @@ a:visited {
     margin-right: 50px;
 }
 #picture{
-    float:right;
+    float:center;
     width: 100px;
     height: auto;
     margin-bottom: 1em;
