@@ -75,6 +75,7 @@
       font-size: 1.5em;
     }
     .days {
+      background-color: #f1faee;
       padding: 2em;
       border: 5px solid #1d3557;
       border-radius: 25% 10%;
