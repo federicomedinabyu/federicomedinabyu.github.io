@@ -1,0 +1,11 @@
+@media only screen and (min-width: 1008px) {
+  
+    .title {
+          font-size: 2em;
+    }
+
+    main {
+        padding: 30px;
+    }
+    
+  }  
