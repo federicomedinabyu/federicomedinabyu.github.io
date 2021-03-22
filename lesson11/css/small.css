@@ -191,7 +191,8 @@ a {
 }
 .article-picture {
   
-  width: 20%;
+ width: 100%;
+ border-radius: 15px;
 
 }
 .icon {
