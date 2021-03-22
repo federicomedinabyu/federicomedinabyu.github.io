@@ -83,8 +83,18 @@
       font-family: "Balsamiq Sans", "Roboto", sans-serif;
       font-size: 1.2em;
       } 
-    
+      .article {
+        text-align: left;
+        min-width: 600px;
       }
+  
+      .article-picture {
+            float: right;
+            width: 50%; 
+            margin: 15px;
+      }
+     
+    }
     
 
 
